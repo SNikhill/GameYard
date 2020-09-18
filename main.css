@@ -1,0 +1,345 @@
+@font-face{
+	font-family: Audiowide;
+	src: url("Fonts/Audiowide.ttf");
+}
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Times New Roman", serif;
+    text-decoration: none !important;
+	text-align: center;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+html,body{
+	max-width: 100%;
+	background-color: rgba(54,54,54,1);
+}
+
+.container{
+	display: grid;
+	grid-template-columns: .5fr 4fr 2fr;
+	grid-gap: 5px;
+	grid-template-areas: "header header header" 
+	                     "banner banner banner" 
+	                     "section section section" 
+	                     "sectionb sectionb sectionb"
+	                     "img-change img-change img-change"
+	                     "form form form"
+	                     "footer footer footer";
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	grid-area: header;
+	height: 45px;
+	position: sticky;
+}
+
+.title{
+	display: inline-block;
+	float: left;
+	position: sticky;
+	font-family: Audiowide;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.title::first-letter{
+	color: red;
+}
+
+.title span{
+	color: red;
+	font-family: "Audiowide";
+}
+
+header nav{
+	width: 20%;
+	display: inline-block;
+	margin-top: 10px;
+	float: right;
+	margin-right: 4px
+}
+
+
+nav a{
+   color: white;
+   display: block;
+   position: relative;
+   float: right;
+   clear: left;
+   margin-right: 20px;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.back-video{
+	grid-area: banner;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	top: 0%;
+	z-index: 1;
+	width: 100%;
+	height: 85%;
+    overflow: hidden;
+}
+
+
+#banner{
+  position: relative;
+  padding: 0;	
+}
+
+.blur-screen{
+	background-color: rgba(18,18,18,0.8);
+	display: inline-block;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 200;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+
+#caption{
+	position: relative;
+	top: 40%;
+	left: 44%;
+	width: 15%;
+	font-family: "Audiowide";
+	font-size: 30px;
+}
+.btn1{
+	font-family: "Audiowide";
+}
+
+.hide{
+	color: white !important;
+}
+
+
+#caption button{
+	background: none;
+	border: 1px solid white;
+	border-radius: 7px;
+	color: white;
+	height: 30px;
+	width: 100px;
+    font-size: 15px;	
+}
+
+.section{
+	position: relative;
+	margin-left: 85px;
+	grid-area: section;
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+	grid-template-areas: "strip-a strip-a strip-a"
+		                 "strip-b strip-b strip-b";
+	grid-row-gap: 20px;
+}
+
+.strip-a{
+	grid-area: strip-a;
+	display: grid;
+	grid-auto-columns: 271px;
+	grid-gap: 14px;
+}
+
+.strip-b{
+	grid-area: strip-b;
+	display: grid;
+	grid-auto-columns: 271px;
+	grid-gap: 14px;
+}
+
+.game-title{
+	width: 271px;
+	height: 175px;
+	box-shadow: 2px 2px 5px;
+}
+
+.caption{
+    background-color: rgba(18,18,18,0.8);
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.caption span{
+	position: relative;
+	top: 50%;
+	font-family: "Audiowide";
+	font-size: 22px;
+}
+.downloadbtn{
+	position: relative;
+	top: 50%;
+	background: none;
+	color: white;
+	font-family: "Audiowide";
+	border: 1px solid white;
+	display: none;
+}
+
+#img-background{
+	grid-area: sectionb;
+	background-image: url("Images/Hitman.jpg");
+	background-repeat: no-repeat;
+	width: 1152px;
+	height: 568px;
+    margin-top: 30px;
+    margin-left: 74px;
+}
+
+.blur-screen2{
+	background-color: rgba(18,18,18,0.84);
+	height: 100%;
+	color: white;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-template-areas: "video text"
+}
+
+#vid2{
+	position: relative;
+	margin-left: 30px;
+	width: 600px;
+	height: 100%;
+	border-radius: 200px;
+}
+
+.side-text{
+	margin-top: 35%;
+	font-family: "Audiowide" !important;
+	height: 80%;
+}
+#svg{
+	width: 30px;
+	position: absolute;
+	top: 214%;
+	left: 30%;
+	visibility: hidden;
+}
+#svg2{
+	width: 30px;
+	position: absolute;
+	top: 214%;
+	left: 30%;
+	visibility: hidden;
+}
+#nxt{
+	position: absolute;
+	width: 50px;
+	top: 240%;
+}
+
+.side-text h2{
+	font-family: "Audiowide" !important;
+	font-size: 50px;
+}
+
+.side-text h2:first-letter{
+	color: red;
+	font-size: 95px;
+}
+
+#imgchange{
+	width: 800px;
+	height: 400px;
+	margin: 20px auto;
+	grid-area: img-change;
+}
+#imgchange h3{
+	font-family: "Audiowide";
+	color: white;
+	margin-top: 20%;
+	font-size: 44px;
+}
+
+#imgchange h3:first-letter{
+	color: red;
+    font-size: 64px;
+}
+
+.fcontainer{
+	grid-area: form;
+	display: grid;
+	grid-template-columns: 5fr 3fr;
+	grid-template-areas:"texta texta"
+	                    "form form";
+	grid-row-gap: 14px;     
+}
+.text-area{
+	display: block;
+	grid-area: texta;
+	color: white;
+	font-family: "Audiowide";
+}
+.text-area h4{
+	font-family: "Audiowide";
+	font-size: 30px;
+	margin-left: 14px;
+}
+
+#form{
+	grid-area: form;
+	display: grid;
+	grid-template-columns: "1fr .5fr";
+	grid-template-areas: "field button";
+	margin-bottom: 30px;
+	display: grid;
+}
+
+#field1{
+	grid-area: field;
+	border: none;
+	width: 30%;
+	height: 30px;
+	margin-left: 500px;
+	margin-right: 14px;
+}
+#button{
+	grid-area: button;
+	width: 70px;
+	text-align: center;
+	height: 25px;
+	margin-top: 2.5px;
+	margin-left: 14px;
+	margin-right: 400px;
+	background: crimson;
+	color: white;
+	font-family: "Audiowide";
+	border: 1px solid white;
+}
+
+footer{
+	grid-area: footer; 
+	color: white;
+	font-family: "Audiowide";
+}
+footer hr{
+	width: 80%;
+	margin-left: 10%;
+}
+
+footer h3{
+	font-family: "Audiowide";
+}
+.myname{
+	font-family: "Audiowide";
+}
+.myname{
+	color: red;
+	font-size: 30px;
+}
