@@ -1,148 +1,212 @@
 <!DOCTYPE html>
 <html style="scroll-behavior: smooth;">
-<head>
-	<title>GameYard</title>
-	<link href="main.css" rel="stylesheet" type="text/css">
-	<meta charset="utf-8">
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-	<script src="jquery.js"></script>
-</head>
-<body onscroll="playvid1()">
- <div class="container">
-  
-  <!-- Header-->
-	<header>
-		<h3 class="title">
-		Game<span>Y</span>ard
-		</h3>
-	</header>
-	
-  <!--video banner -->	
-	<div class="back-video">
-		<div class="blur-screen">
-           <p id="caption">
-           	GameYard
-     <a href="#section1"><button class="btn1">Browse</button></a>
-           </p>
-		</div>
-		<video id="banner" loop muted>
-			<source src="Videos\fortnite2.mp4" type="video/mp4">
-		</video>
-	</div>
+  <head>
+    <title>GameYard</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <script src="jquery.js"></script>
+  </head>
+  <body onscroll="playvid1()">
+    <div class="container">
+      <!-- Header-->
+      <header>
+        <h3 class="title">
+          Game<span>Y</span>ard
+        </h3>
+      </header>
 
-<!-- Game titles -->
-	<div class="section">
-	  <section class="strip-a">
-	  <a name="section1"></a>  
-	    <div class="game-title" style="grid-column: 1; background: url(Images/TheElderScrolls.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">The Elder Scrolls</span>
-          	</a>
+      <!--video banner -->
+      <div class="back-video">
+        <div class="blur-screen">
+          <p id="caption">
+            GameYard
+            <a href="#section1"><button class="btn1">Browse</button></a>
           </p>
-	    </div>
+        </div>
+        <video id="banner" loop muted>
+          <source src="media/videos/fortnite2.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-	    <div class="game-title" style="grid-column: 2; background: url(Images/Syndicate.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">Syndicate</span>
-          	</a>
-          </p>
-	    </div>
+      <!-- Game titles -->
+      <div class="section">
+        <section class="strip-a">
+          <a name="section1"></a>
+          <div
+            class="game-title"
+            style="
+              grid-column: 1;
+              background: url(media/images/TheElderScrolls.jpg);
+            "
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">The Elder Scrolls</span>
+              </a>
+            </p>
+          </div>
 
-	    <div class="game-title" style="grid-column: 3; background: url(Images/StarWarsBattlefront.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">Star Wars Battlefront</span>
-          	</a>
-          </p>
-	    </div>
+          <div
+            class="game-title"
+            style="grid-column: 2; background: url(media/images/Syndicate.jpg);"
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">Syndicate</span>
+              </a>
+            </p>
+          </div>
 
-	    <div class="game-title" style="grid-column: 4; background: url(Images/BattleField4.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">Battlefield 4</span>
-          	</a>
-          </p>
-	    </div>
-      </section>
-      <section class="strip-b"> 
-	    <div class="game-title" style="grid-column: 1; background: url(Images/GodOfWar.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">God Of War</span>
-          	</a>
-          </p>
-	    </div>
+          <div
+            class="game-title"
+            style="
+              grid-column: 3;
+              background: url(media/images/StarWarsBattlefront.jpg);
+            "
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">Star Wars Battlefront</span>
+              </a>
+            </p>
+          </div>
 
-	    <div class="game-title" style="grid-column: 2; background: url(Images/DarkSouls.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">Dark Souls</span>
-          	</a>
-          </p>
-	    </div>
+          <div
+            class="game-title"
+            style="
+              grid-column: 4;
+              background: url(media/images/BattleField4.jpg);
+            "
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">Battlefield 4</span>
+              </a>
+            </p>
+          </div>
+        </section>
+        <section class="strip-b">
+          <div
+            class="game-title"
+            style="grid-column: 1; background: url(media/images/GodOfWar.jpg);"
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">God Of War</span>
+              </a>
+            </p>
+          </div>
 
-	    <div class="game-title" style="grid-column: 3; background: url(Images/FarCry3.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">FarCry 3</span>
-          	</a>
-          </p>
-	    </div>
+          <div
+            class="game-title"
+            style="grid-column: 2; background: url(media/images/DarkSouls.jpg);"
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">Dark Souls</span>
+              </a>
+            </p>
+          </div>
 
-        <div class="game-title" style="grid-column: 4; background: url(Images/FallOut4.jpg);">
-          <p class="caption">
-          	<a href="Notes/download.txt" download="">
-          	<span class="hide">Fallout 4</span>
-          	</a>
-          </p>
-        </div>	    
-      </section>
-  </div>
+          <div
+            class="game-title"
+            style="grid-column: 3; background: url(media/images/FarCry3.jpg);"
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">FarCry 3</span>
+              </a>
+            </p>
+          </div>
 
-  <!-- FEATURED GAME-->
-  <div id="img-background">
-  	<div class="blur-screen2">
-     <div class="side-text" style="grid-area: text">
-         <h2 id="fname"> Hitman 2 </h2>
-     <a href="Notes/download.txt" download style="color:white; font-family:'Audiowide';">Download</a> It now
-     <img id="nxt" src="Images/next.svg" onclick="nxtvideo()">
-     </div>
-     <video id="vid2" src="Videos/Hitman2.mp4" type="video/mp4" style="grid-area: video">
-     </video>
-     <img onclick="playvid2()" id="svg" src="Images/play.svg">
-     <img id="svg2" onclick="pausevid()" src="Images/pause.svg">
+          <div
+            class="game-title"
+            style="grid-column: 4; background: url(media/images/FallOut4.jpg);"
+          >
+            <p class="caption">
+              <a href="notes/download.txt" download="">
+                <span class="hide">Fallout 4 </span>
+              </a>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- FEATURED GAME-->
+      <div id="img-background">
+        <div class="blur-screen2">
+          <div class="side-text" style="grid-area: text;">
+            <h2 id="fname">Hitman 2</h2>
+            <a
+              href="notes/download.txt"
+              download
+              style="color: white; font-family: 'Audiowide';"
+              >Download</a
+            >
+            It now
+            <img id="nxt" src="media/images/next.svg" onclick="nxtvideo()" />
+          </div>
+          <video
+            id="vid2"
+            src="media/videos/Hitman2.mp4"
+            type="video/mp4"
+            style="grid-area: video;"
+          ></video>
+          <img onclick="playvid2()" id="svg" src="media/images/play.svg" />
+          <img id="svg2" onclick="pausevid()" src="media/images/pause.svg" />
+        </div>
+      </div>
+
+      <!-- IMAGE CHANGER -->
+      <div id="imgchange" onmouseover="changeimg()" onmouseout="">
+        <h3 id="name">5 games you can't miss.</h3>
+      </div>
+
+      <!--Form-->
+      <div class="fcontainer">
+        <span class="text-area">
+          <h4>Wanna receive latest game updates and news in your mailbox?</h4>
+          <br />
+          <input
+            type="radio"
+            class="op"
+            id="op1"
+            value="yes"
+            name="same"
+            onclick="chk()"
+          />Yes
+          <input
+            type="radio"
+            class="op"
+            id="op2"
+            value="no"
+            name="same"
+            onclick="chk()"
+          />No
+        </span>
+        <form id="form" onsubmit="return inptchk()">
+          <input
+            type="text"
+            placeholder="yourname@domain.com"
+            id="field1"
+            title="Input Email"
+          />
+          <br />
+          <input type="submit" value="Submit" id="button" />
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <hr />
+        &copy 2018
+        <br />
+        <h3>
+          by <span class="myname">N</span>ikhil <span class="myname">S</span>eth
+        </h3>
+      </footer>
     </div>
-  </div>
-
-<!-- IMAGE CHANGER -->
-<div id="imgchange" onmouseover="changeimg()" onmouseout="">
-	<h3 id="name"> 5 games you can't miss. </h3>
-</div>
-
-<!--Form-->
-<div class="fcontainer">
-  <span class="text-area">
-	<h4> Wanna receive latest game updates and news in your mailbox?</h4>
-	<br>
-	<input type="radio" class="op" id="op1" value="yes" name="same" onclick="chk()">Yes
-  	  <input type="radio" class="op" id="op2" value="no" name="same" onclick="chk()">No
-  </span>
-  <form id="form" onsubmit="return inptchk()">
-     <input type="text" placeholder="yourname@domain.com" id="field1" title="Input Email">
-     <br><input type="submit" value="Submit" id="button">
-  </form>	
-</div>
-
-<!-- Footer -->
-<footer>
-	<hr>
-	&copy 2018
-	<br><h3>by <span class="myname">N</span>ikhil <span class="myname">S</span>eth</h3>
-</footer>	  	
-</div>
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
-
