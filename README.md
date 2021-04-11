@@ -1,8 +1,14 @@
 # GameYard
-[A yard for games.](https://snikhill.github.io/GameYard)
+**A Project By:** [Nikhil Seth](https://github.com/SNikhill/)
 
+[![play-button](https://user-images.githubusercontent.com/51415616/114298097-4b2d4600-9ad2-11eb-9c77-62f74950f917.png) Run It](https://snikhill.github.io/GameYard/)
+
+[![image](https://user-images.githubusercontent.com/51415616/114297674-9f82f680-9acf-11eb-993a-52abb556ecab.png)](https://snikhill.github.io/GameYard/)
+
+A Dark Themed, Grid Based Web Interface that shows how, a Game Store website needs to have a "game" like cool vibe to the design.
 
 ## About this project
+
 This project is a non-responsive layout I made. It is actually one of the very first stand-out layouts I made.
 I just found about CSS Grid and thought of using the same. I haven't stopped using CSS Grid since then.
 Clearly, the layout is non-responsive and infact, I am not even sure whether I am allowed to use the videos / images I used.
@@ -29,3 +35,6 @@ I end this description with a quote by Adam Osborne
 
 
 The Webpage can be viewed [here](https://snikhill.github.io/GameYard)
+
+### Acknowledgements
+- Red Play Icon has been Provided By `xnimrodx` [FlatIcon](https://www.flaticon.com/free-icon/play-button_2468825?term=red%20play%20button&related_id=2468825)
